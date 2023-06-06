@@ -1,0 +1,27 @@
+1 git init
+2 git remote add origin https://github.com/bhelening/20230605-HelenBernal.git
+3 git remote -v
+4 touch comandos.txt main.js index.html
+5  ls
+6  git add .
+7  git commit -m "commit 01 de HelenBernal"
+8  git push origin main
+9  git branch feature
+10  git checkout feature
+11  mkdir Hardware Software SeguridadInformatica
+12  ls
+13  cd Hardware/
+14  touch resumen.txt
+15  cp resumen.txt ../SeguridadInformatica/
+16  cp resumen.txt ../Software/
+17  cd ..
+18  ls -R
+19 git add .
+20 git commit -m "commit 02 de HelenBernal"
+21 git push origin feature
+22 git checkout main
+23 ls
+24 mv main.js resumenHardware.txt
+25 ls
+26 mv index.html resumenSoftware.txt
+27 history
